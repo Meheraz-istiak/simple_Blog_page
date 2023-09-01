@@ -1,15 +1,11 @@
-<template>
-
-     <NavBar/>
-     <PostCard/>
-
-</template>
-
 <script setup>
-import NavBar from './components/NavBar.vue';
-import PostCard from './components/PostCard.vue';
+  import Navbar from './components/Navbar.vue'
 </script>
 
-<style lang="scss" scoped>
+<template>
+  <navbar></navbar>
+</template>
+
+<style scoped>
 
 </style>
